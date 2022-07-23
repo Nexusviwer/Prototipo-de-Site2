@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body{
+    margin: 0;
+    background-color:#f2f2f2;
+}
+.container{
+    display: grid;
+    grid-template-rows: 10vh 85vh 5vh;
+    grid-template-columns:1fr ;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+     grid-row-start: 1;
+     grid-row-end: 2;
+     transform: translateX(-40px);
+}
+.logo{
+    height: 65px;
+    width: 200px;
+}
+.navigation{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.menu1{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+.menu2{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+ul li a{
+    color: #010101;
+    text-decoration: none;
+}
+.main{
+      grid-row-start: 2;
+      grid-row-end: 3;
+      background-image: url("https://images.arquidicas.com.br/wp-content/uploads/2015/02/11190330/casa-high-tech.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 150px;
+}
+.radio{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(270px);
+}
+.btnma{
+    width: 240px;
+    height: 50px;
+    background-color: transparent;
+    border-color: #010101;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    transform: translateX(400px)translateY(300px);
+}
+.btnma a{
+    color: #010101;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+#imgm{
+    height: 85vh;
+    width: 100%;
+}
+.cardm{
+    display: grid;
+    grid-template-rows: 40px 300px 60px;
+    grid-template-columns: 1fr;
+    height: 400px;
+    width: 500px;
+    background-color: #f2f2f2;
+}
+.headercard{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #010101;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.material-symbols-outlined {
+ color: #f2f2f2;
+}
+
+.hmp{
+    color: #f2f2f2;
+    align-items: center;
+    margin-left: 30px;
+}
+.maincard{
+    grid-row-start: 2;
+    grid-row-end: 3;
+   
+}
+.textsm{
+    display: flex;
+    flex-direction: column;
+}
+.textm1{
+   font-size: 28px;
+   transform: translateX(250px)translateY(20px);
+   text-decoration: underline;
+   
+}
+.textm2{
+ font-size: 68px;
+ transform: translateY(-40px)translateX(70px);
+}
+.textm3{
+  font-size: 22px;
+  transform: translateY(-90px)translateX(70px);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    gap: 20px;
+    transform: translateY(30px);
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+.nd{
+    display: flex;
+    gap: 50px;
+}
+#estado{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+}
+#i1{
+    width: 470px;
+    height: 30px;
+    border-radius: 8px;
+}
+#bg{
+   width: 200px;
+   height: 40px;
+   border-radius: 8px;
+}
+#pt{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+}
+#area{
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+
+}
+.inputs2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footercard{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #9e9494;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fch1{
+    font-size: 16px;
+}
+#btnfc{
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0466c8;
+}
+#btnfc a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+.footer{
+    grid-row-start: 3;
+    grid-row-end: 4;
+   
+}
